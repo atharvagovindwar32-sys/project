@@ -1,0 +1,65 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+    ;
+    font-family: "helvetica neue",helvetica,arial,sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+#nav{
+    padding: 20px 30px;
+    
+}
+#nav a{
+   color: white;
+   text-decoration: none;
+   margin-right: 30px;  
+}
+#main h1{
+    color: white;
+    font-size: 300px;
+    font-weight: 350;
+    padding: 30px;
+}
+#bootemleft{
+    color: white;
+    width: 300px;
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+    
+
+}
+#bootemleft h4{
+    margin-top: 30px;
+}
+#main img{
+    height: 330px;
+    position: absolute;
+}
+#first{
+    height: 550px;
+    top: 51%;
+    left: 55%;
+    
+}
+#second{
+    top: 44%;
+    left: 41%;
+}
+#third{
+    top: 42%;
+    left: 68%;
+}
+
+
