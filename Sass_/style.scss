@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+
+    section{
+        height: 100%;
+        flex-grow: 1;
+
+        background-size: cover;
+        background-position: center;
+        transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+        couser: pointer;
+    }
+    section:hover{
+        flex-grow: 2;
+    }
+
+    section:nth-child(1){
+        background-image: url("./8a7599573e5b92b0f0751f37dad38176.jpg");
+    }
+
+    section:nth-child(2){
+        background-image: url("./cp.jpg");
+    }
+
+    section:nth-child(3){
+        background-image: url("./hulk.jpg");
+    }
+
+    section:nth-child(4){
+        background-image: url("./iron.jpg");
+    }
+     section:nth-child(5){
+        background-image: url("./7eeb00e4effcc6ca593ed38b17746708.jpg");
+    }
+
+}
