@@ -1,0 +1,20 @@
+h1 {
+    color: red;
+    font-size: 100px;
+}
+.f{
+ gap: 20px;
+    display: flex;
+    align-items: center;
+}
+.f button{
+    font-size: 30px;
+    padding: 20px 30px;
+    border-radius: 50px;
+    background-color: chartreuse;
+    font-style: italic;
+   
+}
+body{
+    background-color: black;
+}
