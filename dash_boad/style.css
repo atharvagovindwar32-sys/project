@@ -1,0 +1,16 @@
+:root {
+    --primary-color: white;
+    --secondary-color: black;
+    --tri_color: lightseagreen;
+}
+
+@font-face {
+    font-family: costum;
+    src: url(./Qilargo-Demo-BF69c4e5a1ae64c.otf);
+}
+h1{
+    font-family: costum;
+    letter-spacing: 3px;
+    font-weight: 200;
+    color: var(--tri_color);
+}
